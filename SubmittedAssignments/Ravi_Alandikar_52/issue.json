@@ -1,0 +1,270 @@
+{
+  "name": "string",
+  "uid": "string",
+  "masterId": "string",
+  "module": "Certificate",
+  "config": "object",
+  "companyId": "string",
+  "issuerId": "string",
+  "data": {
+    "party": {
+      "name": "string",
+      "jobTitle": "string",
+      "mobile": "string",
+      "alternateMobile": "string",
+      "email": "string"
+    }
+  }
+}
+
+
+// {
+//   "name": "visiting-cards",
+//   "userId": "678b4c6fc79de48262b34830",
+//   "companyId": "6686a2c178569827611f3b15",
+//   "relatedTo": "/masters",
+//   "appliedTo": "",
+//   "type": "StandAlone",
+//   "isActionLibraryRequired": false,
+//   "actionLibrary": [],
+//   "isExternalApi": false,
+//   "externalApiEndpoint": "",
+//   "externalApiCredentials": {},
+//   "formFields":[
+//       {
+        
+//             "fieldGroupClassName": "row",
+//             "fieldGroup": [
+//                  {
+//                     "className": "col-6",
+//                     "key": "Party",
+//                     "type": "input",
+//                     "templateOptions": {
+//                         "label": "Name",
+//                         "required": true
+//                     }
+//                 },
+//                 {
+//                     "className": "col-6",
+//                     "key": "Party",
+//                     "type": "input",
+//                     "templateOptions": {
+//                         "label": "jobTitle",
+//                         "required": false
+//                     }
+//                 },
+//                 {
+//                     "className": "col-6",
+//                     "key": "Party",
+//                     "type": "number",
+//                     "templateOptions": {
+//                         "label": "mobile",
+//                         "required": true
+//                     }
+//                 },
+//                 {
+//                     "className": "col-12",
+//                     "key": "Party",
+//                     "type": "number",
+//                     "templateOptions": {
+//                         "label": "alternateMobile",
+//                         "required": true
+//                     }
+//                 },
+//                 {
+//                     "className": "col-12",
+//                     "key": "Party",
+//                     "type": "textarea",
+//                     "templateOptions": {
+//                         "label": "email",
+//                         "required": true
+//                     }
+//                 },
+//                 {
+//                     "type": "button",
+//                     "templateOptions": {
+//                         "btnType": "primary",
+//                         "type": "submit",
+//                         "text": "Submit"
+//                     }
+//                 }
+//             ]
+//         }
+//     ]
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "name": "VC masters table",
+  "userId": "678b4c6fc79de48262b34830",
+  "companyId": "6686a2c178569827611f3b15",
+  "relatedTo": "/masters",
+  "appliedTo": "",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "columnDefs":
+      {
+          "fieldGroupClassName": "row",
+          "fieldGroup": [
+            {
+              "title": "Party Name",
+              "field": "party Name",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+           {
+              "title": "Party Mobile",
+              "field": "partyMobile",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "number"
+            },
+           {
+              "title": "Party alternateMobile",
+              "field": "partyalternateMobile",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "number"
+            },
+            {
+              "title": "PartyAddress",
+              "field": "partyAddress",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "textarea"
+            },
+            {
+              "title": "Party Addressline1",
+              "field": "party line1",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "Party Addressline2",
+              "field": "party line2",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "Party Addresslocation",
+              "field": "party location",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "Party area",
+              "field": "party area",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "Party city",
+              "field": "partycity",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "Party area1",
+              "field": "partyarea1",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "Party pincode",
+              "field": "partypincode",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "ContactDetails",
+              "field": "partyEmail",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "ContactDetails",
+              "field": "partyMobile",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "ContactDetails",
+              "field": "alternateMobile",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "name",
+              "field": "name",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "input"
+            },
+            {
+              "title": "socialLinks",
+              "field": "url",
+              "isSort": true,
+              "isFilter": true,
+              "filterType": "text"
+            },
+            {
+              "title": "Action",
+              "isSort": true,
+              "isFilter": false,
+              "filterType": "date",
+              "template": [
+                {
+                  "type": "edit",
+                  "icon": "pencil",
+                  "class": "btn btn-info",
+                  "formId": "6764175bdddf34172d83327c"
+                },
+                {
+                  "type": "view",
+                  "icon": "eye",
+                  "class": "btn btn-primary"
+                },
+                {
+                  "type": "delete",
+                  "icon": "trash",
+                  "class": "btn btn-danger"
+                }
+              ]
+            }
+          ],
+          "created": "2025-01-20T11:10:37.437Z",
+          "modified": "2025-01-20T11:10:37.437Z",
+          "dataParams": {},
+          "config": {}
+        }}

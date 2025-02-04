@@ -1,0 +1,320 @@
+/* *{
+  margin: 0px;
+  /* padding: 0px; */
+  font-family: sans-serif;
+
+
+
+.card-wrapper{
+  margin: auto;
+  /* width: 50%; */
+  /* padding: 26mm; */
+  /* background-image: radial-gradient(gray); */
+}
+
+.card-background{
+  background-color: rgb(206, 204, 204);
+  height: 104mm;
+  width: 133%;
+  transform: rotate(-17deg);
+  position: absolute;
+  left: -60mm;
+  top: 78mm;
+}
+
+.card1-background{
+  height:100mm;
+  width: 150mm;
+  border-radius: 5mm;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+
+.left-bottom{
+
+  height: 21mm;
+  width: 47mm;
+  transform: skew(-24deg);
+  border-bottom-right-radius: 20px;
+  background: rgb(1, 32, 63);
+  top: 60mm;
+  left: -4mm;
+  position: absolute;
+  overflow: hidden;
+}
+
+.right-bottom{
+  height: 21mm;
+  width: 118mm;
+  transform: skew(-23deg);
+  border-top-left-radius: 20px;
+  background: rgb(255, 177, 27);
+  top: 60mm;
+  left: 52mm;
+  position: absolute;
+  text-align: center;
+}
+
+
+
+
+.card2-background{
+  height:100mm;
+  width: 150mm;
+  /* border: 1px solid black; */
+  border-radius: 5mm;
+  overflow: hidden;
+  position: relative;
+  margin-top: 13mm;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.left-top{
+  height: 24mm;
+  width: 68mm;
+  transform: skew(-24deg);
+  border-bottom-right-radius: 20px;
+  background: rgb(255, 177, 27);
+  top: 9mm;
+  left: -8mm;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+.right-bottom2{
+  height: 47mm;
+  width: 112.44mm;
+  transform: skew(-34deg);
+  border-top-left-radius: 40px;
+  background: rgb(1, 32, 63);
+  top: 40mm;
+  left: 54mm;
+  position: absolute;
+}
+.bottom{
+  height: 16mm;
+  width: 160mm;
+  transform: skew(-23deg);
+  border-top-left-radius: 20px;
+  background: rgb(255, 177, 27);
+  top: 85mm;
+  left: 20mm;
+  position: absolute;
+}
+
+
+
+
+
+
+/* 
+body {
+  font-family: 'Arial', sans-serif;
+} */
+
+
+
+
+.card1-content
+{
+  margin-left: 23px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 7pt;
+  transform: translate(-30%, -50%);
+  text-align: start;
+  color: #333;
+}
+
+.party-name
+{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: inherit;
+  width: 168pt;
+  font-size: 1.9em;
+  font-weight: bold; 
+}
+
+.party-job-title
+{
+  font-family: serif;
+  font-optical-sizing: auto;
+  font-size: 1.4em;
+  margin-top: -1pt;
+}
+
+.qr-img
+{
+  max-width: 21%;
+  height: auto;
+}
+
+.qr-code
+{
+  top: 12pt;
+  left: -70pt;
+  position: absolute;
+}
+
+.company
+{
+  font-weight: 700;
+  font-size: 1.0em;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  margin-top: -1pt;
+}
+
+.party-phone
+{
+font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  margin-top: 16pt;
+  position: relative;
+  top: 0pt;
+  left: -14pt;
+}
+
+.party-email
+{
+font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  position: relative;
+  top: 0pt;
+  left: -14pt;
+}
+
+.party-phone-lable
+{
+  font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    padding-left: 3pt;
+    
+}
+
+.party-phone-number
+{
+  font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+}
+
+.party-email-lable
+{
+  font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    padding-left: 3pt;
+}
+
+.party-email-address
+{
+  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+  margin-top: -1pt;
+  
+}
+
+
+
+
+
+
+
+
+
+.card2-content
+{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-30%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.org-logo-img
+{
+  position: relative;
+  top: -22pt;
+  left: 0pt;
+}
+
+.org-name
+{
+  line-height: 94%;
+  text-align-last: inherit;
+  position: relative;
+  top: -16pt;
+  left: 3pt;
+  font-style: oblique;
+  font-size: 13pt;
+}
+
+.org-address
+{
+  position: absolute;
+  top: 28pt;
+  left: 14px;
+  font-style: normal;
+  font-size: 7pt;
+}
+
+
+
+.org-email
+{
+  position: absolute;
+  top: 58pt;
+  left: 49pt;
+  font-style: normal;
+  font-size: 9pt;
+}
+
+.org-phone
+{
+  position: relative;
+  top: 27pt;
+  left: 3px;
+  font-style: normal;
+  font-size: 9pt;
+}
+
+.org-website
+{
+  position: relative;
+  top: 25pt;
+  left: 11pt;
+  font-style: normal;
+  font-size: 9pt;
+}
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,238 @@
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Correct box-sizing */
+}
+
+.card1-background{
+  height: 75mm;
+  width: 130mm;
+  margin: 25mm auto;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 5mm 5mm 5mm rgb(67, 64, 64);
+  overflow: hidden;
+  border-radius: 4mm;
+  /* border: 1px solid black; */
+}
+
+.left-right{
+  width: 0;
+    height: 0;
+    border-left: 13mm solid transparent;
+    border-right: 13mm solid transparent;
+    border-top: 16mm solid rgb(231 201 30);
+    margin-left: 46mm;
+    margin-top: -90mm;
+    z-index: 2;
+    position: relative;
+    transform: rotate(3deg);;
+}
+
+.left-big{
+  width: 0;
+  height: 0;
+  border-left: 17mm solid transparent;
+  border-right: 17mm solid transparent;
+  border-top: 16mm solid rgb(231 201 30);
+  margin-left: -99mm;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.left-mid{
+  width: 0;
+  height: 0;
+  border-top: 17mm solid transparent;
+  border-bottom: 17mm solid transparent;
+  border-left: 17mm solid #fbfbfb;
+  margin-top: -18mm;
+  margin-left: -430px;
+  position: relative;
+  z-index: 2;
+}
+
+.qr-code{
+  height: 13mm;
+    width: 49mm;
+    margin-left: 17mm;
+    margin-top: 62mm;
+    margin-right: 12mm;
+    transform: rotate(-41deg);
+
+}
+.left-small{
+  position: relative;
+    top: -71mm;
+    width: 71mm;
+    height: 126mm;
+    border-right: 5mm solid rgb(248, 214, 22);
+    background-color: #1e1d33;
+    transform: rotate(42deg);
+    margin-left: -54mm;
+}
+
+.left-bottom{
+  margin-top: -93mm;
+    margin-left: -35mm;
+    transform: rotate(246deg);
+    width: 0;
+    height: 0;
+    border-left: 59px solid transparent;
+    border-right: 42px solid transparent;
+    border-bottom: 92px solid rgb(231 198 13);
+}
+
+.img img {
+  margin-top: 51mm;
+  margin-left: 10mm;
+  z-index: 2;
+  transform: rotate(321deg);
+  width: 25mm;
+  height: 32mm;
+  }
+
+.card1-content{
+  margin-top: auto;
+  margin-left: auto;
+  width: auto;
+  height: 75mm
+}
+.logophone{
+  height: 7.5mm;
+  width: 7mm;
+  display: inline;
+  background-color: rgb(1, 1, 1);
+  margin-top: 11mm;
+  margin-bottom: -25.5mm;
+  margin-left: 116.5mm;
+  margin-right: 00mm;
+}
+.logoemail{
+  width: 7mm;
+  height: 7mm;
+  background-color: rgb(4, 4, 4);
+  margin-top: 11mm;
+  margin-bottom: -40mm;
+  margin-left: 116.5mm;
+  margin-right: 0mm;
+}
+.location{
+  width: 8mm;
+  height: 8mm;
+  background-color: rgb(4, 4, 4);
+  margin-top: 0mm;
+  margin-bottom: -60mm;
+  margin-left: 116.5mm;
+  margin-right: 0mm;
+}
+.party-name{
+  font-size: 8mm;
+    margin-top: -80mm;
+    margin-bottom: 4mm;
+    margin-left: 79mm;
+    margin-right: -4mm;
+}
+.company{
+  font-size: 4mm;
+    margin-top: 3mm;
+    margin-bottom: 2mm;
+    margin-left: 76mm;
+    margin-right: -4mm;
+}
+.party-job-title{
+  font-size: 3.5;
+    margin-top: -4mm;
+    margin-bottom: 2mm;
+    margin-left: 95mm;
+    margin-right: -4mm;
+}
+.party-mobile{
+  font-size: 3.6mm;
+    margin-top: -5mm;
+    margin-bottom: 4mm;
+    margin-left: 80mm;
+
+}
+.alternate-Mobile{
+  font-size: 3.6mm;
+  margin-top: -1mm;
+  margin-bottom: 4mm;
+  margin-left: 78mm;
+  margin-right: -4mm;
+}
+.party-email{
+  font-size: 3.6mm;
+    margin-top: -4mm;
+    margin-bottom: 4mm;
+    margin-left: 67mm;
+    margin-right: -4mm;
+
+}
+.company-details{
+  text-align: auto;
+  font-size: 2.6mm;
+  margin-top: -6mm;
+  margin-bottom: 4mm;
+  margin-left: 103mm;
+  margin-right: 47mm
+}
+
+
+
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .card2-background{
+      height: 75mm;
+      width: 130mm;
+      margin: 25mm auto;
+      background-color: rgb(255, 217, 0);
+      box-shadow: 5mm 5mm 5mm rgb(67, 64, 64);
+      overflow: hidden;
+      border-radius: 3mm;
+      /* border: 1px solid black; */
+  }
+  .Right-big{
+  height: 28mm;
+  width: 35mm;
+  background-color: rgb(255, 217, 0);
+  transform: rotate(180deg);
+  }
+  .Right-mid{
+      height: 114mm;
+      width: 294mm;
+      margin-left: -127mm;
+      background-color:#1e1d33;
+      transform: rotate(131deg);
+      border-top: 15px solid rgb(234, 201, 14);
+  }
+  .Right-small{
+      margin-top: -100mm;
+  margin-left: 104mm;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid #ffffff;}
+
+  .org-logo-img{
+      height: 13mm;
+      width: 37mm;
+      margin-left: 88mm;
+      margin-top: -262mm;
+      margin-bottom: -77mm;
+      transform: rotate(0deg);
+  }
+  .Organization{
+      color: #fbfbfb;
+  text-align: auto;
+  font-size: 3.8mm;
+  margin-top: -83mm;
+  margin-bottom: 4mm;
+  margin-left: 37mm;
+  margin-right: 44mm;
+  transform: rotate(0deg);
+  }
+  
+
