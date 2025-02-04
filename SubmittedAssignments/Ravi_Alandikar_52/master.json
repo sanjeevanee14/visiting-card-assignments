@@ -1,0 +1,209 @@
+{
+  "name": "string",
+  "subHeading": "string",
+  "description": "string",
+  "thumbnail": "string",
+  "module": "string",
+  "category": "string",
+  "type": "string",
+  "tags": "array<string>",
+  "styles": "array<object>",
+  "config": "object",
+  "backgroundSchema": "array<object>",
+  "background": "string",
+  "backgroundUrl": "string",
+  "componentUrl": "string",
+  "components": "array<Components>",
+  "contentSchema": "array<object>",
+  "data":{
+  "qrCode":"string"
+  },
+  "organization":{
+  "logo":"orgLogoImg",
+  "name":"string",
+  "address":{
+	"line1": "string",
+    "line2": "string",
+      "location": "string",
+      "area": "string",
+      "city":"string",
+      "area1":"string",
+      "pincode":"string"
+  },
+  "contactDetails":{
+    "email":"string",
+    "mobile":"string",
+    "alternateMobile":"string"
+  },
+  "socialLinks":{
+    "name":"string",
+    "url":"string"
+  }
+}
+},
+
+
+
+
+
+
+{
+  "name": "Visiting-cards",
+  "userId": "678b4c6fc79de48262b34830",
+  "companyId": "6686a2c178569827611f3b15",
+  "relatedTo": "/masters",
+  "appliedTo": "",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields":
+      {
+          "className": "section-label",
+          "template": "<div><strong>Social Post Master Data:</strong></div>"
+      },
+      [
+        {
+            "fieldGroupClassName": "row",
+            "fieldGroup": [
+                {
+                    "className": "col-6",
+                    "key": "Logo",
+                    "type": "input",
+                    "templateOptions": {
+                        "type": "file",
+                        "label": "ProfilePhoto",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-6",
+                    "key": "name",
+                    "type": "input",
+                    "templateOptions": {
+                        "label": "Name",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-6",
+                    "key": "Address",
+                    "type": "textarea",
+                    "templateOptions": {
+                        "label": "line1",
+                        "required": false
+                    }
+                },
+                {
+                    "className": "col-6",
+                    "key": "Address",
+                    "type": "textarea",
+                    "templateOptions": {
+                        "label": "line2",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-12",
+                    "key": "Address",
+                    "type": "textarea",
+                    "templateOptions": {
+                        "label": "location",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-12",
+                    "key": "Address",
+                    "type": "textarea",
+                    "templateOptions": {
+                        "label": "area",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-12",
+                    "key": "Address",
+                    "type": "textarea",
+                    "templateOptions": {
+                        "label": "city",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-12",
+                    "key": "Address",
+                    "type": "textarea",
+                    "templateOptions": {
+                        "label": "area1",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-12",
+                    "key": "Address",
+                    "type": "textarea",
+                    "templateOptions": {
+                        "label": "pincode",
+                        "required": true
+                    }
+                },
+                {
+                  "className": "col-6",
+                  "key": "contactDetails",
+                  "type": "email",
+                  "templateOptions": {
+                      "label": "Email",
+                      "required": false
+                  }
+              },
+                {
+                  "className": "col-6",
+                  "key": "contactDetails",
+                  "type": "mobile",
+                  "templateOptions": {
+                      "label": "Mobile",
+                      "required": false
+                  }
+              },
+                {
+                  "className": "col-6",
+                  "key": "contactDetails",
+                  "type": "alternateMobile",
+                  "templateOptions": {
+                      "label": "AlternateMobile",
+                      "required": false
+                  }
+              },
+                {
+                    "className": "col-12",
+                    "key": "name",
+                    "type": "input",
+                    "templateOptions": {
+                        "label": "Name",
+                        "required": true
+                    }
+                },
+                {
+                    "className": "col-12",
+                    "key": "socialLinks",
+                    "type": "Url",
+                    "templateOptions": {
+                        "label": "Link",
+                        "required": true
+                    }
+                },
+                {
+                    "type": "button",
+                    "templateOptions": {
+                        "btnType": "primary",
+                        "type": "submit",
+                        "text": "Submit"
+                    }
+                }
+            ]
+        }
+    ]
+}
