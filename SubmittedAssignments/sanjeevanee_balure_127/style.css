@@ -38,6 +38,8 @@ body {
 	
 } 
 .left-mid {
+    top: 0;
+    right: 0;
     width: 0;
     height: 0;
 	border-top: 54pt solid transparent;
