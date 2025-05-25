@@ -23,6 +23,7 @@ body {
     border-left: 80pt solid transparent;
     transform: scaley(-5);
 	position: absolute;
+     top: 0;
     right: 0;
   }
   
